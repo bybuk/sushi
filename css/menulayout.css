@@ -1,0 +1,65 @@
+body {
+  font-family: mulish;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+}
+
+@media (max-width: 990px) {
+  main {
+    width: 100%;
+  }
+}
+
+.menu-title {
+  font-style: normal;
+  margin: 0;
+  font-weight: 400 !important;
+  font-size: clamp(20px, 5vw, 50px);
+  line-height: 63px;
+  text-decoration: underline;
+  text-decoration-color: #f1d5bb;
+  text-underline-offset: 15px;
+}
+
+.left-section {
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  background: #0c0b0b;
+  border-radius: 24px;
+  width: 132px;
+  height: 90%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-icon {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-icon-active {
+  background: #f1d5bb;
+}
+
+.right-section {
+  width: calc(100vw - 200px);
+  margin-left: 200px;
+  overflow-y: auto;
+  padding-top: 20px;
+}

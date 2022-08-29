@@ -1,0 +1,43 @@
+@import url(./global.css);
+@import url(./menulayout.css);
+
+.menu-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 65px;
+  margin: 40px auto;
+}
+
+@media (max-width: 768px) {
+  .menu-container {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+.menu-item {
+    cursor: pointer;
+}
+
+.menu-item {
+    transition: all .4s ease-in-out;
+}
+
+.menu-item:hover {
+    transform: scale(1.2);
+}
+
+.menu-item-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  text-align: center;
+}
+
+.more-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}

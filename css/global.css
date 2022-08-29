@@ -1,6 +1,16 @@
 @font-face {
   font-family: mulish;
-  src: url(../files/fonts/Mulish-Black.ttf);
+  src: url(../files/font/Mulish-Black.ttf);
+}
+
+@font-face {
+  font-family: mulish-medium;
+  src: url(../files/font/Mulish-Medium.ttf);
+}
+
+@font-face {
+  font-family: mulish-regular;
+  src: url(../files/font/Mulish-Regular.ttf);
 }
 
 a {

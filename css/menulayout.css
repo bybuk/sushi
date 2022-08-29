@@ -15,6 +15,7 @@ main {
 }
 
 .menu-title {
+  font-family: mulish-medium;
   font-style: normal;
   margin: 0;
   font-weight: 400 !important;

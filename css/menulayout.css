@@ -53,6 +53,14 @@ main {
   cursor: pointer;
 }
 
+.nav-icon > img {
+  transition: all .3s ease-in-out;
+}
+
+.nav-icon:hover > img {
+  transform: scale(1.5);
+}
+
 .nav-icon-active {
   background: #f1d5bb;
 }

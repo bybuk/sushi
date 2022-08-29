@@ -17,15 +17,7 @@
 }
 
 .menu-item {
-    cursor: pointer;
-}
-
-.menu-item {
-    transition: all .4s ease-in-out;
-}
-
-.menu-item:hover {
-    transform: scale(1.2);
+  cursor: pointer;
 }
 
 .menu-item-text {

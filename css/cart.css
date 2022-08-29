@@ -1,2 +1,145 @@
 @import url(./global.css);
 @import url(./menulayout.css);
+
+body {
+    font-family: mulish-regular;
+}
+
+.cart-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.cart-items {
+  background: #f1d5bb;
+  border-radius: 3px;
+  width: 600px;
+  padding: 20px 40px;
+  margin-top: 50px;
+  grid-column: span 3;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 40px auto;
+}
+
+.cart-item-detail {
+  display: flex;
+  grid-column: span 2;
+}
+
+.cart-item-title {
+  font-family: mulish-regular;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 31px;
+  margin-top: 10px;
+}
+
+.cart-item-price {
+  font-family: mulish-regular;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.cart-item-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: span 1;
+}
+
+.cart-item-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.cart-item-close {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cart-item-counter {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item-minus,
+.cart-item-plus {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.cart-item-count {
+  width: 46px;
+  height: 35px;
+  background: #ffffff;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 10px;
+}
+
+.cart-summary {
+    border:  1px solid #f1d5bb;
+    margin-top: 50px;
+}
+
+.summary-top {
+    background: #f1d5bb;
+    padding: 20px 40px;
+}
+
+.summary-title {
+    font-weight: 400;
+    font-size: clamp(20px, 5vw, 40px);
+    line-height: 50px;
+}
+
+.sub-title {
+    font-weight: 400;
+    font-size: clamp(20px, 5vw, 30px);
+    line-height: 50px;
+}
+
+.confirm-btn {
+    width: 100%;
+    height: 75px;
+    margin-bottom: 15px;
+}
+
+.summary-bottom {
+    padding: 20px 40px;
+}
+
+.promo-input {
+    height: 75px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.promo-input::placeholder {
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.apply-btn {    
+    height: 75px;
+    width: 150px;
+    margin-top: 30px;
+}
